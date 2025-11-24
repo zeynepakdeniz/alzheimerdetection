@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class ChatbotService {
   static const String apiKey = 'apıkey'; 
-  static const String apiUrl = 'https://openrouter.ai/api/v1/chat/completions'; 
+  static const String apiUrl = ''; 
   
   static const String siteUrl = 'https://your-site-url.com'; 
   static const String siteName = 'Your Site Name'; 
