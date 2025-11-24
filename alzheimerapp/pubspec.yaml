@@ -1,0 +1,40 @@
+name: alzheimerapp
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.5+3
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.5
+  http: ^1.2.2
+  intl: ^0.20.1
+  firebase_storage: ^12.3.7
+  flutter_chess_board: ^1.0.1
+  sudoku_solver_generator: ^2.1.0+1
+  chess: ^0.7.0
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/background.png
+    - assets/logo.png
+    - assets/main.png
+    
